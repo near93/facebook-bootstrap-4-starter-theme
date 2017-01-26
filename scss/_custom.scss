@@ -1,0 +1,64 @@
+// Bootstrap overrides
+//
+// Copy variables from `_variables.scss` to this file to override default values
+// without modifying source files.
+
+// Table of Contents
+//
+// Colors
+// Body
+// Links
+
+// Colors
+//
+// Grayscale and brand colors for use across Bootstrap.
+$white:						#FFFFFF;
+$gray-dark:                 #1d2129;
+$gray-light:                #E9EBEE;
+$gray-lightest:             #f6f7f9;
+
+$brand-primary:             #3B5998;
+$brand-secondary: 			#4267B2;
+
+// Body
+//
+// Settings for the `<body>` element.
+
+$body-bg: $gray-light;
+$body-color: $gray-dark;
+
+// Links
+//
+// Style anchor elements.
+
+$link-hover-color:      $brand-secondary;
+
+//Navbar
+$navbar-dark-hover-color:           rgba(0,0,0,.1);
+
+// Buttons
+//
+// For each of Bootstrap's buttons, define text, background and border color.
+
+$btn-primary-bg:                 $brand-secondary;
+
+$btn-secondary-bg:               $gray-lightest;
+
+
+
+// Form states and alerts
+//
+// Define colors for form feedback states and, by default, alerts.
+
+$state-warning-text:             $white;
+$state-warning-bg:               #338FFF;
+
+// Breadcrumbs
+
+$breadcrumb-bg:                 $white;
+$breadcrumb-divider-color:      $gray-dark;
+$breadcrumb-active-color:       $brand-secondary;
+
+// Tags
+
+$tag-default-bg:            $gray-dark;
